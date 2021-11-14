@@ -1,25 +1,23 @@
 from crossref_commons.retrieval import get_entity
 from crossref_commons.types import EntityType, OutputType
 
-class PullData:
+class PullData:	#transform this function as a class
 	def __init__(self, doi):
 		self.doi = doi
 
-	def getInitials(self, str):
+	def getInitials(self, str):	#Put getInitials brfore as a alone function instead of part of pullData
 		allNames = str.split()
 		initials = [names[0] for names in allNames]
 		initialsProcessced = ". ".join(initials) + "."
 		return initialsProcessced
 
-	def pullData(self, doi):
-		art = get_entity(doi,
-						 EntityType.PUBLICATION,
-						 OutputType.JSON)
+	def pullData(self):
+		art = get_entity(self.doi, EntityType.PUBLICATION, OutputType.JSON)
 
 		if 'DOI' in art:
-			doi = art[ 'DOI' ]
+			doi1 = art[ 'DOI' ]
 		else:
-			doi = None
+			doi1 = None
 
 		if 'type' in art:
 			typ = art[ 'type' ]   #book-chapter
@@ -68,7 +66,7 @@ class PullData:
 		else:
 			cit = 'None'
 
-		if 'container-title' in art and not len(art['container-title']) == 0: #prevents empty lists
+		if 'container-title' in art and not len(art['container-title']) == 0:	#prevents empty lists
 			jnl = art[ 'container-title' ][ 0 ]
 		else:
 			jnl = None
@@ -118,4 +116,4 @@ class PullData:
 		else:
 			anm = None
 
-		return doi, typ, vol, iss, pgs, aut, tit, pub, cit, jnl, ref, ymd, art, rct, issn, isbn, loc, url, edt, anm
+		return doi1, typ, vol, iss, pgs, aut, tit, pub, cit, jnl, ref, ymd, art, rct, issn, isbn, loc, url, edt, anm
