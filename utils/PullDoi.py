@@ -16,13 +16,30 @@ class PullDoi:
 				link = link + tit[i]
 			elif(c==32):
 				link = link + '+'
+		link = link + '&from_ui=yes'
 		return link
-	
+
+	# def json(self) -> Dict[str, Any]:
+	# 	"""Convert the response data to JSON.
+    #     If the response data is not valid JSON, an error will be raised.
+    #     Returns:
+    #         The JSON data loaded into a Python dictionary.
+    #     """
+	# 	if isinstance(self.data, urllib3.HTTPResponse):
+	# 		return json.loads(self.data.data)
+	# 	try:
+	# 		data = ast.literal_eval(self.data)
+	# 	except Exception as e:
+	# 		log.debug(f'failed literal eval of data {self.data} ({e})')
+	# 		data = json.loads(self.data)
+	# 	return data
+
 	def PullDoi(self):
 		url = self.GenerateLink()
 		result = http.request('GET', url)
-		result_dict = json.loads(result)
-		result_dict['DOI']
+		print(result.data)
+		# result_dict = json.loads(result)
+		# result_dict['DOI']
 
 		return doi
 
