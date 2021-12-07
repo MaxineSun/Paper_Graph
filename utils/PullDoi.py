@@ -11,9 +11,9 @@ class PullDoi:
 		link = 'https://api.crossref.org/works?rows=5&query.title='
 		length = len(self.tit)
 		for i in range(length):
-			c = ord(tit[i])
+			c = ord(self.tit[i])
 			if((c>=48 & c<=57)|(c>=65 & c<=90)|(c>=97 & c<=122)):
-				link = link + tit[i]
+				link = link + self.tit[i]
 			elif(c==32):
 				link = link + '+'
 		link = link + '&from_ui=yes'

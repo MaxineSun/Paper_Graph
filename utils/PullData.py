@@ -81,10 +81,10 @@ class PullData:	#transform this function as a class
 		else:
 			ymd = None
 
-		if 'reference-count' in art:
-			rct = art[ 'reference-count' ]
-		else:
-			rct = None
+		# if 'reference-count' in art:
+		# 	rct = art[ 'reference-count' ]
+		# else:
+		# 	rct = None
 
 		if 'ISSN' in art:
 			issn = art[ 'ISSN' ]
@@ -116,4 +116,5 @@ class PullData:	#transform this function as a class
 		else:
 			anm = None
 
-		return doi1, typ, vol, iss, pgs, aut, tit, pub, cit, jnl, ref, ymd, art, rct, issn, isbn, loc, url, edt, anm
+		return doi1, typ, vol, iss, pgs, aut, tit, pub, cit, jnl, ref, ymd, issn, isbn, loc, url, edt, anm
+
