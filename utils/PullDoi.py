@@ -1,11 +1,9 @@
 import urllib3
-import json
 http = urllib3.PoolManager()
 
 class PullDoi:	
 	def __init__(self, tit):
 		self.tit = tit
-
 
 	def GenerateLink(self):
 		link = 'https://api.crossref.org/works?rows=5&query.title='
@@ -16,31 +14,21 @@ class PullDoi:
 				link = link + self.tit[i]
 			elif(c==32):
 				link = link + '+'
-		link = link + '&from_ui=yes'
+		# link = link + '&from_ui=yes'
 		return link
 
-	# def json(self) -> Dict[str, Any]:
-	# 	"""Convert the response data to JSON.
-    #     If the response data is not valid JSON, an error will be raised.
-    #     Returns:
-    #         The JSON data loaded into a Python dictionary.
-    #     """
-	# 	if isinstance(self.data, urllib3.HTTPResponse):
-	# 		return json.loads(self.data.data)
-	# 	try:
-	# 		data = ast.literal_eval(self.data)
-	# 	except Exception as e:
-	# 		log.debug(f'failed literal eval of data {self.data} ({e})')
-	# 		data = json.loads(self.data)
-	# 	return data
 
 	def PullDoi(self):
 		url = self.GenerateLink()
 		result = http.request('GET', url)
-		print(result.data)
-		# result_dict = json.loads(result)
-		# result_dict['DOI']
-
+		# r = http.request('GET', 'https://api.crossref.org/works?rows=5&query.title=Advances+in+building+technology')
+		strr = str(result.data, encoding="utf-8")
+		global false, null, true
+		false = null = true = ""
+		dictr = eval(strr)
+		odoi = dictr["message"]["items"][0]["DOI"]
+		doi = odoi.replace('\\','')
+		print(doi)
 		return doi
 
 

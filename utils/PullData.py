@@ -11,13 +11,6 @@ class PullData:	#transform this function as a class
 		initialsProcessced = ". ".join(initials) + "."
 		return initialsProcessced
 
-	# def pullGiven(self, aut__):
-	# 	aut = []
-	# 	for a in aut__:
-	# 		firstName = a['given']
-	# 		aut.append(self.getInitials(firstName) + ' ' + a['family'])
-	# 	return aut
-
 	def pullData(self):
 		try:
 			self.art = get_entity(self.doi, EntityType.PUBLICATION, OutputType.JSON)
@@ -48,13 +41,10 @@ class PullData:	#transform this function as a class
 
 			if 'author' in self.art:
 				aut__ = self.art[ 'author' ]
-				print(aut__)
 				aut = []
 				for a in aut__:
-
 					if 'given' in a:
 						firstName = a[ 'given' ]
-
 						aut.append(self.getInitials(firstName) + ' ' + a[ 'family' ])
 					elif 'family' in a:
 						aut.append(a['family'])
@@ -62,7 +52,6 @@ class PullData:	#transform this function as a class
 						aut = None
 			else:
 				aut = None
-
 
 			if 'title' in self.art:
 				tit = self.art[ 'title' ][ 0 ]

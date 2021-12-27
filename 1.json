@@ -1,0 +1,1677 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 1388989,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              11
+            ]
+          ],
+          "date-time": "2021-12-11T17:38:14Z",
+          "timestamp": 1639244294723
+        },
+        "publisher-location": "Cham",
+        "reference-count": 16,
+        "publisher": "Springer International Publishing",
+        "isbn-type": [
+          {
+            "value": "9783030689834",
+            "type": "print"
+          },
+          {
+            "value": "9783030689841",
+            "type": "electronic"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2021-01-01T00:00:00Z",
+              "timestamp": 1609459200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http:\/\/www.springer.com\/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2021-01-01T00:00:00Z",
+              "timestamp": 1609459200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http:\/\/www.springer.com\/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2021-01-01T00:00:00Z",
+              "timestamp": 1609459200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https:\/\/www.springer.com\/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2021-01-01T00:00:00Z",
+              "timestamp": 1609459200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https:\/\/www.springer.com\/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "DOI": "10.1007\/978-3-030-68984-1_37",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              11
+            ]
+          ],
+          "date-time": "2021-02-11T19:06:04Z",
+          "timestamp": 1613070364000
+        },
+        "page": "250-257",
+        "update-policy": "http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Compounding Features of Special Molding Mixes for 3D Printing Technology"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-6495-4650",
+            "authenticated-orcid": false,
+            "given": "E. S.",
+            "family": "Glagolev",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0001-8376-5065",
+            "authenticated-orcid": false,
+            "given": "N. V.",
+            "family": "Chernysheva",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-2378-3947",
+            "authenticated-orcid": false,
+            "given": "V. S.",
+            "family": "Lesovik",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-4086-2858",
+            "authenticated-orcid": false,
+            "given": "E. N.",
+            "family": "Lesnichenko",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              12
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "37_CR1",
+            "unstructured": "Lesovik, V.S., Glagolev, E.S., Volodchenko, A.N., Drebezgova, M.Yu.: Effective composites for 3D additive technologies in construction. Bull. Cent. Territorial Dept. Russ. Acad. Archit. Constr. Sci. Voronezh 15, 149\u2013156 (2016)"
+          },
+          {
+            "issue": "4",
+            "key": "37_CR2",
+            "first-page": "22649",
+            "volume": "8",
+            "author": "YM Bazhenov",
+            "year": "2016",
+            "unstructured": "Bazhenov, Y.M., Zagorodnjuk, L.H., Lesovik, V.S., Yerofeyeva, I.V., Chernysheva, N.V., Sumskoy, D.A.: Concerning the role of mineral additives in composite binder content. Int. J. Pharm. Technol. 8(4), 22649\u201322661 (2016)",
+            "journal-title": "Int. J. Pharm. Technol."
+          },
+          {
+            "issue": "24",
+            "key": "37_CR3",
+            "first-page": "14",
+            "volume": "1",
+            "author": "MB Permyakov",
+            "year": "2017",
+            "unstructured": "Permyakov, M.B., Permyakov, A.F., Davydova, A.M.: Additive technologies in construction. Eur. Res. 1(24), 14\u201318 (2017)",
+            "journal-title": "Eur. Res."
+          },
+          {
+            "issue": "52",
+            "key": "37_CR4",
+            "first-page": "27",
+            "volume": "1",
+            "author": "NI Vatin",
+            "year": "2017",
+            "unstructured": "Vatin, N.I., Chumadova, L.I., Goncharov, I.S., Zykova, V.V., Karpenya, A.N., Kim, A.A., Finashenkov, E.A.: 3D printing in construction. Constr. Unique Build. Struct. 1(52), 27\u201346 (2017)",
+            "journal-title": "Constr. Unique Build. Struct."
+          },
+          {
+            "key": "37_CR5",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Tay, Y.W.D., Panda, B., Paul, S.C., Noor Mohamed, N.A., Tan, M.J., Leong, K.F.: 3D printing trends in building and construction industry: a review. Virtualand Phys. Prototyping 12(3), 261\u2013276 (2017)",
+            "DOI": "10.1080\/17452759.2017.1326724"
+          },
+          {
+            "key": "37_CR6",
+            "unstructured": "Luneva, D.A., Kozhevnikova, E.O., Kaloshina, S.V.: Application of 3D printing in construction and prospects for its development. Bull. Perm Natl. Res. Polytech. Univ. Constr. Archit. 8(1), 90\u2013101 (2017)"
+          },
+          {
+            "key": "37_CR7",
+            "unstructured": "Drebezgova, M.Yu.: Modern additive technologies in low-rise construction. Bull. BSTU named after V.G. Shukhov 6, 66\u201369 (2017)"
+          },
+          {
+            "key": "37_CR8",
+            "first-page": "12",
+            "volume": "9",
+            "author": "AP Pustovgar",
+            "year": "2018",
+            "unstructured": "Pustovgar, A.P., Adamtsevich, A.O., Volkov, A.A.: Technology and organization of additive construction. Ind. Civ. Constr. 9, 12\u201320 (2018)",
+            "journal-title": "Ind. Civ. Constr."
+          },
+          {
+            "key": "37_CR9",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Inozemtsev, A.S., Korolev, E.V., Zuong, T.K.: Analysis of existing technological solutions for 3D printing in construction. Bull. MSCU 13(7)(118), 863\u2013876 (2018)",
+            "DOI": "10.22227\/1997-0935.2018.7.863-876"
+          },
+          {
+            "key": "37_CR10",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Chernysheva, N.V., Lesovik, V.S., Drebezgova, M.Yu., Shatalova, S.V., Alaskhanov A.H.: Composite gypsum binders with silica-containing additives. In: IOP Conference Series: Materials Science and Engineering, vol. 327, p. 032015 (2018)",
+            "DOI": "10.1088\/1757-899X\/327\/3\/032015"
+          },
+          {
+            "issue": "2",
+            "key": "37_CR11",
+            "first-page": "45",
+            "volume": "1",
+            "author": "NV Chernysheva",
+            "year": "2018",
+            "unstructured": "Chernysheva, N.V., Shatalova, S.V., Evsyukova, A.S.: Fischer, Hantz-Bertram: features of selection of rational composition of composite gypsum binder. Constr. Mater. Prod. 1(2), 45\u201352 (2018)",
+            "journal-title": "Constr. Mater. Prod."
+          },
+          {
+            "key": "37_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "367",
+            "DOI": "10.4028\/www.scientific.net\/MSF.974.367",
+            "volume": "974",
+            "author": "SV Klyuev",
+            "year": "2019",
+            "unstructured": "Klyuev, S.V., Klyuev, A.V., Shorstova, E.S.: Fiber concrete for 3-D additive technologies. Mater. Sci. Forum 974, 367\u2013372 (2019)",
+            "journal-title": "Mater. Sci. Forum"
+          },
+          {
+            "issue": "2",
+            "key": "37_CR13",
+            "first-page": "10",
+            "volume": "2",
+            "author": "MYu Elistratkin",
+            "year": "2019",
+            "unstructured": "Elistratkin, MYu., Minakov, S.V., Shatalova, S.V.: Influence of mineral additives in the composition of a composite binder on the effectiveness of the plasticizer. Constr. Mater. Prod. 2(2), 10\u201316 (2019)",
+            "journal-title": "Constr. Mater. Prod."
+          },
+          {
+            "key": "37_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "25",
+            "DOI": "10.4028\/www.scientific.net\/MSF.945.25",
+            "volume": "945",
+            "author": "SV Klyuev",
+            "year": "2018",
+            "unstructured": "Klyuev, S.V., Khezhev, T.A., Pukharenko, Y.V., Klyuev, A.V.: To the question of fiber reinforcement of concrete. Mater. Sci. Forum 945, 25\u201329 (2018)",
+            "journal-title": "Mater. Sci. Forum"
+          },
+          {
+            "key": "37_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "115",
+            "DOI": "10.4028\/www.scientific.net\/MSF.945.115",
+            "volume": "945",
+            "author": "SV Klyuev",
+            "year": "2018",
+            "unstructured": "Klyuev, S.V., Khezhev, T.A., Pukharenko, Y.V., Klyuev, A.V.: Experimental study of fiber-reinforced concrete structures. Mater. Sci. Forum 945, 115\u2013119 (2018)",
+            "journal-title": "Mater. Sci. Forum"
+          },
+          {
+            "key": "37_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "2433",
+            "DOI": "10.3390\/ma12152433",
+            "volume": "12",
+            "author": "V Markin",
+            "year": "2019",
+            "unstructured": "Markin, V., Nerella, V.N., Schr\u00f6fl, C., Guseynova, G., Mechtcherine, V.: Material design and performance evaluation of foam concrete for digital fabrication. Materials 12, 2433 (2019)",
+            "journal-title": "Materials"
+          }
+        ],
+        "container-title": [
+          "Lecture Notes in Civil Engineering",
+          "Proceedings of the International Conference Industrial and Civil Construction 2021"
+        ],
+        "link": [
+          {
+            "URL": "https:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-68984-1_37",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              22
+            ]
+          ],
+          "date-time": "2021-04-22T14:58:25Z",
+          "timestamp": 1619103505000
+        },
+        "score": 63.478638,
+        "issued": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783030689834",
+          "9783030689841"
+        ],
+        "references-count": 16,
+        "URL": "http:\/\/dx.doi.org\/10.1007\/978-3-030-68984-1_37",
+        "ISSN": [
+          "2366-2557",
+          "2366-2565"
+        ],
+        "issn-type": [
+          {
+            "value": "2366-2557",
+            "type": "print"
+          },
+          {
+            "value": "2366-2565",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "12 February 2021",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "ICICC",
+            "order": 1,
+            "name": "conference_acronym",
+            "label": "Conference Acronym",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "International Conference Industrial and Civil Construction",
+            "order": 2,
+            "name": "conference_name",
+            "label": "Conference Name",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Belgorod",
+            "order": 3,
+            "name": "conference_city",
+            "label": "Conference City",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Russia",
+            "order": 4,
+            "name": "conference_country",
+            "label": "Conference Country",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "2021",
+            "order": 5,
+            "name": "conference_year",
+            "label": "Conference Year",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "18 January 2021",
+            "order": 7,
+            "name": "conference_start_date",
+            "label": "Conference Start Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "19 January 2021",
+            "order": 8,
+            "name": "conference_end_date",
+            "label": "Conference End Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "icicc2 2021",
+            "order": 10,
+            "name": "conference_id",
+            "label": "Conference ID",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "https:\/\/scopus-conf.ru\/en\/industrial-and-civil-construction-2021\/",
+            "order": 11,
+            "name": "conference_url",
+            "label": "Conference URL",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              22
+            ]
+          ],
+          "date-time": "2021-12-22T01:52:44Z",
+          "timestamp": 1640137964006
+        },
+        "reference-count": 10,
+        "publisher": "IOP Publishing",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2021-04-01T00:00:00Z",
+              "timestamp": 1617235200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http:\/\/creativecommons.org\/licenses\/by\/3.0\/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2021-04-01T00:00:00Z",
+              "timestamp": 1617235200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https:\/\/iopscience.iop.org\/info\/page\/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "iopscience.iop.org"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "J. Phys.: Conf. Ser."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              1
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract<\/jats:title>\n               <jats:p>3D printing technology can also be described as an increase in the manufacture of materials. In the forming process, no traditional machine tools, fixtures and cutting tools are required. Parts models of arbitrary complex shapes can be manufactured quickly and accurately. In the experimental process, small printers are modified in the extrusion part and printed with water-based alumina slurry as ink. The water-based oxide slurry is mainly water medium and contains only a small amount of organic binder. The influence of pH value, solid content, plasticizer, binder, lubricant and dispersant on the fluidity of slurry is studied. The results show that the slurry has the best stability when the amount of dispersant is 0.4 wt%, plasticizer is 1.0 wt%, lubricant is 4.0 wt%, binder is 1.0 wt%.<\/jats:p>",
+        "DOI": "10.1088\/1742-6596\/1881\/3\/032030",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              26
+            ]
+          ],
+          "date-time": "2021-04-26T23:03:01Z",
+          "timestamp": 1619478181000
+        },
+        "page": "032030",
+        "update-policy": "http:\/\/dx.doi.org\/10.1088\/crossmark-policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Ceramic Molding Based on 3D Printing Technology"
+        ],
+        "prefix": "10.1088",
+        "volume": "1881",
+        "author": [
+          {
+            "given": "Chao",
+            "family": "Deng",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Ting",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "266",
+        "reference": [
+          {
+            "key": "JPCS_1881_3_032030bib1",
+            "doi-asserted-by": "crossref",
+            "first-page": "54",
+            "DOI": "10.4028\/www.scientific.net\/MSF.989.54",
+            "article-title": "Innovative Approaches to Using Kazakhstan\u2019s Industrial Ferrous and Nonferrous Tailings in the Production of Ceramic Materials [J]",
+            "volume": "989",
+            "author": "Kairakbaev",
+            "year": "2020",
+            "journal-title": "Materials Science Forum"
+          },
+          {
+            "key": "JPCS_1881_3_032030bib2",
+            "first-page": "152",
+            "volume": "39",
+            "author": "Pitayachaval",
+            "year": "2017",
+            "journal-title": "generate an adaptive detritus automatic treatment (LOM)[ C ]"
+          },
+          {
+            "key": "JPCS_1881_3_032030bib3",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1016\/j.jmbbm.2020.104010",
+            "article-title": "Influence of different ceramic materials and surface treatments on the adhesion of Prevotella intermedia [J]",
+            "volume": "111",
+            "author": "Poole",
+            "year": "2020",
+            "journal-title": "Journal of the Mechanical Behavior of Biomedical Materials"
+          },
+          {
+            "key": "JPCS_1881_3_032030bib4",
+            "first-page": "122",
+            "article-title": "Research Status and Prospect of Selective Laser Sintering Molding Materials [J]",
+            "volume": "25",
+            "author": "Wang",
+            "year": "2018",
+            "journal-title": "Foundry Technology"
+          },
+          {
+            "key": "JPCS_1881_3_032030bib5",
+            "doi-asserted-by": "crossref",
+            "first-page": "183",
+            "DOI": "10.1080\/00150193.2019.1652506",
+            "article-title": "Doping effects of Nb on the dielectric properties of (Pb, La, Sr)(Zr, Sn, Ti, Nb)O3 X9R ceramic materials[J]",
+            "volume": "550",
+            "author": "Liang",
+            "year": "2019",
+            "journal-title": "Ferroelectrics"
+          },
+          {
+            "key": "JPCS_1881_3_032030bib6",
+            "first-page": "90",
+            "article-title": "Citing the report. Simple Microfluidic Chip Preparation UV Curing Molding [J]",
+            "volume": "11",
+            "author": "Luo",
+            "year": "2020",
+            "journal-title": "Technology Journal of Beijing University of Chemical Technology"
+          },
+          {
+            "key": "JPCS_1881_3_032030bib7",
+            "doi-asserted-by": "crossref",
+            "first-page": "23611",
+            "DOI": "10.1016\/j.ceramint.2019.08.072",
+            "article-title": "Multilayer ceramic materials: A method to link bioactivity and durability [J]",
+            "volume": "45",
+            "author": "Ros-T\u00e1rraga",
+            "year": "2019",
+            "journal-title": "Ceramics International"
+          },
+          {
+            "key": "JPCS_1881_3_032030bib8",
+            "doi-asserted-by": "crossref",
+            "first-page": "78",
+            "DOI": "10.1016\/j.jeurceramsoc.2019.09.005",
+            "article-title": "Densification, morphological and transport properties of functional La1-xBaxYbO3-ceramic materials[J]",
+            "volume": "40",
+            "author": "Kasyanova",
+            "year": "2020",
+            "journal-title": "Journal of the European Ceramic Society"
+          },
+          {
+            "key": "JPCS_1881_3_032030bib9",
+            "doi-asserted-by": "crossref",
+            "first-page": "4358",
+            "DOI": "10.1016\/j.jeurceramsoc.2019.05.069",
+            "article-title": "Photocurable ceramic slurry using solid camphor as novel diluent for conventional digital light processing (DLP) process[J]",
+            "volume": "39",
+            "author": "",
+            "year": "2019",
+            "journal-title": "Journal of the European Ceramic Society"
+          },
+          {
+            "key": "JPCS_1881_3_032030bib10",
+            "doi-asserted-by": "crossref",
+            "first-page": "470",
+            "DOI": "10.4191\/kcers.2017.54.6.12",
+            "article-title": "Citing the report. Ceramic stereolithography: additive manufacturing [J]",
+            "volume": "54",
+            "author": "Bae",
+            "year": "2020",
+            "journal-title": "For 3D complex ceramic structures Journal of the Korean Ceramic Society"
+          }
+        ],
+        "container-title": [
+          "Journal of Physics: Conference Series"
+        ],
+        "link": [
+          {
+            "URL": "https:\/\/iopscience.iop.org\/article\/10.1088\/1742-6596\/1881\/3\/032030",
+            "content-type": "text\/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https:\/\/iopscience.iop.org\/article\/10.1088\/1742-6596\/1881\/3\/032030\/pdf",
+            "content-type": "application\/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https:\/\/iopscience.iop.org\/article\/10.1088\/1742-6596\/1881\/3\/032030\/pdf",
+            "content-type": "application\/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "https:\/\/iopscience.iop.org\/article\/10.1088\/1742-6596\/1881\/3\/032030\/pdf",
+            "content-type": "application\/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              28
+            ]
+          ],
+          "date-time": "2021-11-28T12:35:42Z",
+          "timestamp": 1638102942000
+        },
+        "score": 33.099895,
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              1
+            ]
+          ]
+        },
+        "references-count": 10,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                1
+              ]
+            ]
+          }
+        },
+        "URL": "http:\/\/dx.doi.org\/10.1088\/1742-6596\/1881\/3\/032030",
+        "ISSN": [
+          "1742-6588",
+          "1742-6596"
+        ],
+        "issn-type": [
+          {
+            "value": "1742-6588",
+            "type": "print"
+          },
+          {
+            "value": "1742-6596",
+            "type": "electronic"
+          }
+        ],
+        "subject": [
+          "General Physics and Astronomy"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              1
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Ceramic Molding Based on 3D Printing Technology",
+            "name": "article_title",
+            "label": "Article Title"
+          },
+          {
+            "value": "Journal of Physics: Conference Series",
+            "name": "journal_title",
+            "label": "Journal Title"
+          },
+          {
+            "value": "paper",
+            "name": "article_type",
+            "label": "Article Type"
+          },
+          {
+            "value": "Published under licence by IOP Publishing Ltd",
+            "name": "copyright_information",
+            "label": "Copyright Information"
+          },
+          {
+            "name": "date_received",
+            "label": "Date Received",
+            "group": {
+              "name": "publication_dates",
+              "label": "Publication dates"
+            }
+          },
+          {
+            "name": "date_accepted",
+            "label": "Date Accepted",
+            "group": {
+              "name": "publication_dates",
+              "label": "Publication dates"
+            }
+          },
+          {
+            "name": "date_epub",
+            "label": "Online publication date",
+            "group": {
+              "name": "publication_dates",
+              "label": "Publication dates"
+            }
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              10
+            ]
+          ],
+          "date-time": "2021-12-10T18:17:51Z",
+          "timestamp": 1639160271802
+        },
+        "reference-count": 0,
+        "publisher": "The Surface Finishing Society of Japan",
+        "issue": "7",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "J. Surf. Finish Soc. Jpn."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              1991
+            ]
+          ]
+        },
+        "DOI": "10.4139\/sfj.42.703",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2011,
+              8,
+              16
+            ]
+          ],
+          "date-time": "2011-08-16T03:47:54Z",
+          "timestamp": 1313466474000
+        },
+        "page": "703-709",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Special Issue\/Printing and Copy. Decorating Methods of 3D Molding."
+        ],
+        "prefix": "10.4139",
+        "volume": "42",
+        "author": [
+          {
+            "given": "Takashi",
+            "family": "TARUTANI",
+            "sequence": "first",
+            "affiliation": []
+          }
+        ],
+        "member": "2624",
+        "container-title": [
+          "Journal of the Surface Finishing Society of Japan"
+        ],
+        "original-title": [
+          "\u5c0f\u7279\u96c6\uff0f\u5370\u5237\u30fb\u30b3\u30d4\u30fc\u3000\uff13\u6b21\u5143\u7acb\u4f53\u6210\u5f62\u54c1\u3078\u306e\u52a0\u98fe\u65b9\u6cd5"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              5,
+              20
+            ]
+          ],
+          "date-time": "2021-05-20T19:00:30Z",
+          "timestamp": 1621537230000
+        },
+        "score": 30.063385,
+        "issued": {
+          "date-parts": [
+            [
+              1991
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "7",
+          "published-print": {
+            "date-parts": [
+              [
+                1991
+              ]
+            ]
+          }
+        },
+        "URL": "http:\/\/dx.doi.org\/10.4139\/sfj.42.703",
+        "ISSN": [
+          "0915-1869",
+          "1884-3409"
+        ],
+        "issn-type": [
+          {
+            "value": "0915-1869",
+            "type": "print"
+          },
+          {
+            "value": "1884-3409",
+            "type": "electronic"
+          }
+        ],
+        "subject": [
+          "General Engineering"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1991
+            ]
+          ]
+        }
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              8
+            ]
+          ],
+          "date-time": "2021-12-08T19:26:28Z",
+          "timestamp": 1638991588807
+        },
+        "publisher-location": "Cham",
+        "reference-count": 24,
+        "publisher": "Springer International Publishing",
+        "isbn-type": [
+          {
+            "value": "9783030499150",
+            "type": "print"
+          },
+          {
+            "value": "9783030499167",
+            "type": "electronic"
+          }
+        ],
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2020-01-01T00:00:00Z",
+              "timestamp": 1577836800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http:\/\/www.springer.com\/tdm"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  1,
+                  1
+                ]
+              ],
+              "date-time": "2020-01-01T00:00:00Z",
+              "timestamp": 1577836800000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http:\/\/www.springer.com\/tdm"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020
+            ]
+          ]
+        },
+        "DOI": "10.1007\/978-3-030-49916-7_9",
+        "type": "book-chapter",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              7
+            ]
+          ],
+          "date-time": "2020-07-07T23:04:17Z",
+          "timestamp": 1594163057000
+        },
+        "page": "83-92",
+        "update-policy": "http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Characterising Concrete Mixes for 3D Printing"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Atteyeh S.",
+            "family": "Natanzi",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "given": "Ciaran",
+            "family": "McNally",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              8
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "9_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "212",
+            "DOI": "10.1016\/j.autcon.2017.08.019",
+            "volume": "83",
+            "author": "B Zareiyan",
+            "year": "2017",
+            "unstructured": "Zareiyan, B., Khoshnevis, B.: Effects of interlocking on interlayer adhesion and strength of structures in 3D printing of concrete. Autom. Constr. 83, 212\u2013221 (2017)",
+            "journal-title": "Autom. Constr."
+          },
+          {
+            "key": "9_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "13",
+            "DOI": "10.1016\/j.cemconcomp.2018.12.014",
+            "volume": "97",
+            "author": "AV Rahul",
+            "year": "2019",
+            "unstructured": "Rahul, A.V., Santhanam, M., Meena, H., Ghani, Z.: 3D printable concrete: mixture design and test methods. Cement Concrete Composites 97, 13\u201323 (2019)",
+            "journal-title": "Cement Concrete Composites"
+          },
+          {
+            "issue": "8",
+            "key": "9_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "1221",
+            "DOI": "10.1617\/s11527-012-9828-z",
+            "volume": "45",
+            "author": "TT Le",
+            "year": "2012",
+            "unstructured": "Le, T.T., Austin, S.A., Lim, S., Buswell, R.A., Gibb, A.G., Thorpe, T.: Mix design and fresh properties for high-performance printing concrete. Mater. Struct. 45(8), 1221\u20131232 (2012)",
+            "journal-title": "Mater. Struct."
+          },
+          {
+            "key": "9_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "107290",
+            "DOI": "10.1016\/j.compositesb.2019.107290",
+            "volume": "176",
+            "author": "B Panda",
+            "year": "2019",
+            "unstructured": "Panda, B., Unluer, C., Tan, M.J.: Extrusion and rheology characterization of geopolymer nanocomposites used in 3D printing. Composites Part B: Eng. 176, 107290 (2019)",
+            "journal-title": "Composites Part B: Eng."
+          },
+          {
+            "issue": "9",
+            "key": "9_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "1374",
+            "DOI": "10.3390\/ma12091374",
+            "volume": "12",
+            "author": "Y Chen",
+            "year": "2019",
+            "unstructured": "Chen, Y., Chaves Figueiredo, S., Yal\u00e7inkaya, \u00c7., \u00c7opuro\u011flu, O., Veer, F., Schlangen, E.: The effect of viscosity-modifying admixture on the extrudability of limestone and calcined clay-based cementitious material for extrusion-based 3D concrete printing. Materials 12(9), 1374 (2019)",
+            "journal-title": "Materials"
+          },
+          {
+            "key": "9_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "107634",
+            "DOI": "10.1016\/j.matdes.2019.107634",
+            "volume": "167",
+            "author": "H Alghamdi",
+            "year": "2019",
+            "unstructured": "Alghamdi, H., Nair, S.A., Neithalath, N.: Insights into material design, extrusion rheology, and properties of 3D-printable alkali-activated fly ash-based binders. Mater. Des. 167, 107634 (2019)",
+            "journal-title": "Mater. Des."
+          },
+          {
+            "key": "9_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "260",
+            "DOI": "10.1016\/j.cemconcomp.2018.09.015",
+            "volume": "95",
+            "author": "VN Nerella",
+            "year": "2019",
+            "unstructured": "Nerella, V.N., N\u00e4ther, M., Iqbal, A., Butler, M., Mechtcherine, V.: Inline quantification of extrudability of cementitious materials for digital construction. Cement Concrete Composites 95, 260\u2013270 (2019)",
+            "journal-title": "Cement Concrete Composites"
+          },
+          {
+            "key": "9_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "73",
+            "DOI": "10.1016\/j.cemconres.2016.09.005",
+            "volume": "90",
+            "author": "Y Qian",
+            "year": "2016",
+            "unstructured": "Qian, Y., Kawashima, S.: Use of creep recovery protocol to measure static yield stress and structural rebuilding of fresh cement pastes. Cement Concrete Res. 90, 73\u201379 (2016)",
+            "journal-title": "Cement Concrete Res."
+          },
+          {
+            "issue": "10",
+            "key": "9_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "3903",
+            "DOI": "10.1016\/j.conbuildmat.2011.04.021",
+            "volume": "25",
+            "author": "SS Shebl",
+            "year": "2011",
+            "unstructured": "Shebl, S.S., Seddeq, H.S., Aglan, H.A.: Effect of micro-silica loading on the mechanical and acoustic properties of cement pastes. Constr. Build. Mater. 25(10), 3903\u20133908 (2011)",
+            "journal-title": "Constr. Build. Mater."
+          },
+          {
+            "key": "9_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "19",
+            "DOI": "10.1016\/j.conbuildmat.2016.02.177",
+            "volume": "112",
+            "author": "M Heikal",
+            "year": "2016",
+            "unstructured": "Heikal, M., Ibrahim, N.S.: Hydration, microstructure and phase composition of composite cements containing nano-clay. Constr. Build. Mater. 112, 19\u201327 (2016)",
+            "journal-title": "Constr. Build. Mater."
+          },
+          {
+            "issue": "17",
+            "key": "9_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "7478",
+            "DOI": "10.1007\/s10853-006-1462-0",
+            "volume": "42",
+            "author": "T.-P. Chang",
+            "year": "2007",
+            "unstructured": "Chang, T.-P., Shih, J.-Y., Yang, K.-M., Hsiao, T.-C.: Material properties of Portland cement paste with nano-montmorillonite. J. Mater. Sci. 42(17), 7478\u20137487 (2007). \nhttps:\/\/doi.org\/10.1007\/s10853-006-1462-0",
+            "journal-title": "J. Mater. Sci."
+          },
+          {
+            "key": "9_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "639",
+            "DOI": "10.1016\/j.conbuildmat.2017.04.015",
+            "volume": "145",
+            "author": "A Kazemian",
+            "year": "2017",
+            "unstructured": "Kazemian, A., Yuan, X., Cochran, E., Khoshnevis, B.: Cementitious materials for construction-scale 3D printing: laboratory testing of fresh printing mixture. Constr. Build. Mater. 145, 639\u2013647 (2017)",
+            "journal-title": "Constr. Build. Mater."
+          },
+          {
+            "issue": "01",
+            "key": "9_CR13",
+            "first-page": "23",
+            "volume": "10",
+            "author": "M Morsy",
+            "year": "2010",
+            "unstructured": "Morsy, M., Alsayed, S., Aqel, M.: Effect of nano-clay on mechanical properties and microstructure of ordinary Portland cement mortar. Int. J. Civil Environ. Eng. IJCEE-IJENS 10(01), 23\u201327 (2010)",
+            "journal-title": "Int. J. Civil Environ. Eng. IJCEE-IJENS"
+          },
+          {
+            "issue": "8",
+            "key": "9_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "1801380",
+            "DOI": "10.1002\/adem.201801380",
+            "volume": "21",
+            "author": "SM Sajadi",
+            "year": "2019",
+            "unstructured": "Sajadi, S.M., Boul, P.J., Thaemlitz, C., Meiyazhagan, A.K., Puthirath, A.B., Tiwary, C.S., Rahman, M.M., Ajayan, P.M.: Direct ink writing of cement structures modified with nanoscale additive. Adv. Eng. Mater. 21(8), 1801380 (2019)",
+            "journal-title": "Adv. Eng. Mater."
+          },
+          {
+            "key": "9_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "749",
+            "DOI": "10.1016\/j.conbuildmat.2012.06.057",
+            "volume": "36",
+            "author": "S Kawashima",
+            "year": "2012",
+            "unstructured": "Kawashima, S., Kim, J.H., Corr, D.J., Shah, S.P.: Study of the mechanisms underlying the fresh-state response of cementitious materials modified with nanoclays. Constr. Build. Mater. 36, 749\u2013757 (2012)",
+            "journal-title": "Constr. Build. Mater."
+          },
+          {
+            "key": "9_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "35",
+            "DOI": "10.1016\/j.cemconcomp.2014.01.005",
+            "volume": "48",
+            "author": "S Kawashima",
+            "year": "2014",
+            "unstructured": "Kawashima, S., Chaouche, M., Corr, D.J., Shah, S.P.: Influence of purified attapulgite clays on the adhesive properties of cement pastes as measured by the tack test. Cement Concrete Composites 48, 35\u201341 (2014)",
+            "journal-title": "Cement Concrete Composites"
+          },
+          {
+            "key": "9_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "15",
+            "DOI": "10.1016\/j.cemconres.2018.06.013",
+            "volume": "111",
+            "author": "Y Qian",
+            "year": "2018",
+            "unstructured": "Qian, Y., De Schutter, G.: Enhancing thixotropy of fresh cement pastes with nanoclay in presence of polycarboxylate ether superplasticizer (PCE). Cement Concrete Res. 111, 15\u201322 (2018)",
+            "journal-title": "Cement Concrete Res."
+          },
+          {
+            "issue": "2\u20133",
+            "key": "9_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "235",
+            "DOI": "10.1016\/0377-0257(95)01421-7",
+            "volume": "63",
+            "author": "PV Liddel",
+            "year": "1996",
+            "unstructured": "Liddel, P.V., Boger, D.V.: Yield stress measurements with the vane. J. Non-newtonian Fluid Mech. 63(2\u20133), 235\u2013261 (1996)",
+            "journal-title": "J. Non-newtonian Fluid Mech."
+          },
+          {
+            "key": "9_CR19",
+            "unstructured": "National Standards Authority of Ireland, EN 12390-3: Testing hardened concrete: compressive strength of test specimens (2012)"
+          },
+          {
+            "key": "9_CR20",
+            "unstructured": "ASTM C1437-15: Standard Test Method for Flow of Hydraulic Cement Mortar, American Society of Testing and Materials (ASTM) (2015)"
+          },
+          {
+            "key": "9_CR21",
+            "doi-asserted-by": "publisher",
+            "first-page": "112",
+            "DOI": "10.1016\/j.cemconres.2013.05.019",
+            "volume": "53",
+            "author": "S Kawashima",
+            "year": "2013",
+            "unstructured": "Kawashima, S., Chaouche, M., Corr, D.J., Shah, S.P.: Rate of thixotropic rebuilding of cement pastes modified with highly purified attapulgite clays. Cement Concrete Res. 53, 112\u2013118 (2013)",
+            "journal-title": "Cement Concrete Res."
+          },
+          {
+            "key": "9_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "75",
+            "DOI": "10.1016\/j.compositesb.2018.11.109",
+            "volume": "165",
+            "author": "B Panda",
+            "year": "2019",
+            "unstructured": "Panda, B., Ruan, S., Unluer, C., Tan, M.J.: Improving the 3D printability of high volume fly ash mixtures via the use of nano attapulgite clay. Composites Part B: Eng. 165, 75\u201383 (2019)",
+            "journal-title": "Composites Part B: Eng."
+          },
+          {
+            "issue": "2",
+            "key": "9_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "218",
+            "DOI": "10.1016\/j.clay.2008.09.003",
+            "volume": "43",
+            "author": "Z Zuhua",
+            "year": "2009",
+            "unstructured": "Zuhua, Z., Xiao, Y., Huajun, Z., Yue, C.: Role of water in the synthesis of calcined kaolin-based geopolymer. Appl. Clay Sci. 43(2), 218\u2013223 (2009)",
+            "journal-title": "Appl. Clay Sci."
+          },
+          {
+            "key": "9_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "106968",
+            "DOI": "10.1016\/j.compositesb.2019.106968",
+            "volume": "174",
+            "author": "YWD Tay",
+            "year": "2019",
+            "unstructured": "Tay, Y.W.D., Qian, Y., Tan, M.J.: Printability region for 3D concrete printing using slump and slump flow test. Composites Part B: Eng. 174, 106968 (2019)",
+            "journal-title": "Composites Part B: Eng."
+          }
+        ],
+        "container-title": [
+          "RILEM Bookseries",
+          "Second RILEM International Conference on Concrete and Digital Fabrication"
+        ],
+        "link": [
+          {
+            "URL": "http:\/\/link.springer.com\/content\/pdf\/10.1007\/978-3-030-49916-7_9",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              7
+            ]
+          ],
+          "date-time": "2020-07-07T23:12:14Z",
+          "timestamp": 1594163534000
+        },
+        "score": 29.742317,
+        "issued": {
+          "date-parts": [
+            [
+              2020
+            ]
+          ]
+        },
+        "ISBN": [
+          "9783030499150",
+          "9783030499167"
+        ],
+        "references-count": 24,
+        "URL": "http:\/\/dx.doi.org\/10.1007\/978-3-030-49916-7_9",
+        "ISSN": [
+          "2211-0844",
+          "2211-0852"
+        ],
+        "issn-type": [
+          {
+            "value": "2211-0844",
+            "type": "print"
+          },
+          {
+            "value": "2211-0852",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "8 July 2020",
+            "order": 1,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ChapterHistory",
+              "label": "Chapter History"
+            }
+          },
+          {
+            "value": "DC",
+            "order": 1,
+            "name": "conference_acronym",
+            "label": "Conference Acronym",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "RILEM International Conference on Concrete and Digital Fabrication",
+            "order": 2,
+            "name": "conference_name",
+            "label": "Conference Name",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "Eindhoven",
+            "order": 3,
+            "name": "conference_city",
+            "label": "Conference City",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "The Netherlands",
+            "order": 4,
+            "name": "conference_country",
+            "label": "Conference Country",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "2020",
+            "order": 5,
+            "name": "conference_year",
+            "label": "Conference Year",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "6 July 2020",
+            "order": 7,
+            "name": "conference_start_date",
+            "label": "Conference Start Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "8 July 2020",
+            "order": 8,
+            "name": "conference_end_date",
+            "label": "Conference End Date",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "2",
+            "order": 9,
+            "name": "conference_number",
+            "label": "Conference Number",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          },
+          {
+            "value": "dc2020",
+            "order": 10,
+            "name": "conference_id",
+            "label": "Conference ID",
+            "group": {
+              "name": "ConferenceInfo",
+              "label": "Conference Information"
+            }
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              9
+            ]
+          ],
+          "date-time": "2021-12-09T19:42:47Z",
+          "timestamp": 1639078967127
+        },
+        "reference-count": 0,
+        "publisher": "Kyiv National University of Construction and Architecture",
+        "issue": "76",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  3,
+                  1
+                ]
+              ],
+              "date-time": "2021-03-01T00:00:00Z",
+              "timestamp": 1614556800000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https:\/\/creativecommons.org\/licenses\/by\/4.0"
+          }
+        ],
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "UDSP"
+        ],
+        "abstract": "<jats:p>The article discusses the technology of 3D printing in the field of construction in detail.&#x0D;\nThe analysis of the technical constraints of the technology, as well as the architectural and planning possibilities of using 3D printing is carried out.&#x0D;\nIn the course of the study, it was found that the technology is developing and expanding its opportunities: the search for new material properties, production technologies, combination of elements and extension into the typology of structures: residential and civil construction, infrastructure facilities, small architectural forms, etc. The article contains graphic examples.&#x0D;\nThe study examines the modern market of 3D printing construction, as well as analyzes the prospects for using this technology in construction. It has been established that the number of structures built with 3D printing technology (in full or in part) increases annually, which generates interest not only in the development of the technology, but also in the experience of its application.&#x0D;\nThe article provides conclusions which determine the potential of 3D printing as the main technology of the future in mass residential construction. It also raises the issue of developing concepts for the application of technology in order to minimize time and resource costs.\u00a0<\/jats:p>",
+        "DOI": "10.32347\/2076-815x.2021.76.83-93",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              15
+            ]
+          ],
+          "date-time": "2021-06-15T16:57:25Z",
+          "timestamp": 1623776245000
+        },
+        "page": "83-93",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "FEATURES OF 3D PRINTING TECHNOLOGY APPLICATION IN CONSTRUCTION"
+        ],
+        "prefix": "10.32347",
+        "author": [
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0002-7382-919X",
+            "authenticated-orcid": false,
+            "given": "Yevhen",
+            "family": "Zaiats",
+            "sequence": "first",
+            "affiliation": []
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0001-5575-2996",
+            "authenticated-orcid": false,
+            "given": "Igor",
+            "family": "Bogdanov",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0003-0485-3054",
+            "authenticated-orcid": false,
+            "given": "Hryhorii",
+            "family": "Nevhomonnyi",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0003-2019-0780",
+            "authenticated-orcid": false,
+            "given": "\u0406ryna",
+            "family": "Merylov\u0430",
+            "sequence": "additional",
+            "affiliation": []
+          },
+          {
+            "ORCID": "http:\/\/orcid.org\/0000-0003-3105-7942",
+            "authenticated-orcid": false,
+            "given": "Olexandr",
+            "family": "Rechyts",
+            "sequence": "additional",
+            "affiliation": []
+          }
+        ],
+        "member": "17403",
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Urban development and spatial planning"
+        ],
+        "link": [
+          {
+            "URL": "http:\/\/mtp.knuba.edu.ua\/article\/download\/227830\/227043",
+            "content-type": "application\/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "http:\/\/mtp.knuba.edu.ua\/article\/download\/227830\/227043",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              15
+            ]
+          ],
+          "date-time": "2021-06-15T16:58:35Z",
+          "timestamp": 1623776315000
+        },
+        "score": 28.456715,
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              1
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "76",
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                3,
+                1
+              ]
+            ]
+          }
+        },
+        "URL": "http:\/\/dx.doi.org\/10.32347\/2076-815x.2021.76.83-93",
+        "ISSN": [
+          "2522-9206",
+          "2076-815X"
+        ],
+        "issn-type": [
+          {
+            "value": "2522-9206",
+            "type": "electronic"
+          },
+          {
+            "value": "2076-815X",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "items-per-page": 5,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}
+
+
+
+
