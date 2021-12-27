@@ -9,7 +9,7 @@ if __name__ == '__main__':
     doirecord = []  #change variable name here to avoid conflicts between the doi in line20
     noDOI = []
 
-    for i in range(2, 8):
+    for i in range(5, 6):
         d = ws.cell(row = i, column = 12).value
         tit = ws.cell(row = i, column = 4).value
         if d:

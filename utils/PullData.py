@@ -11,110 +11,126 @@ class PullData:	#transform this function as a class
 		initialsProcessced = ". ".join(initials) + "."
 		return initialsProcessced
 
+	# def pullGiven(self, aut__):
+	# 	aut = []
+	# 	for a in aut__:
+	# 		firstName = a['given']
+	# 		aut.append(self.getInitials(firstName) + ' ' + a['family'])
+	# 	return aut
+
 	def pullData(self):
-		art = get_entity(self.doi, EntityType.PUBLICATION, OutputType.JSON)
+		try:
+			self.art = get_entity(self.doi, EntityType.PUBLICATION, OutputType.JSON)
+			if 'DOI' in self.art:
+				doi1 = self.art[ 'DOI' ]
+			else:
+				doi1 = None
 
-		if 'DOI' in art:
-			doi1 = art[ 'DOI' ]
-		else:
-			doi1 = None
+			if 'type' in self.art:
+				typ = self.art[ 'type' ]   #book-chapter
+			else:
+				typ = 'None'
 
-		if 'type' in art:
-			typ = art[ 'type' ]   #book-chapter
-		else:
-			typ = 'None'
+			if 'volume' in self.art:
+				vol = self.art[ 'volume' ]
+			else:
+				vol = None
 
-		if 'volume' in art:
-			vol = art[ 'volume' ]
-		else:
-			vol = None
+			if 'issue' in self.art:
+				iss = self.art[ 'issue' ]
+			else:
+				iss = None
 
-		if 'issue' in art:
-			iss = art[ 'issue' ]
-		else:
-			iss = None
+			if 'page' in self.art:
+				pgs = self.art[ 'page' ]
+			else:
+				pgs = None
 
-		if 'page' in art:
-			pgs = art[ 'page' ]
-		else:
-			pgs = None
+			if 'author' in self.art:
+				aut__ = self.art[ 'author' ]
+				print(aut__)
+				aut = []
+				for a in aut__:
 
-		if 'author' in art:
-			aut__ = art[ 'author' ]
+					if 'given' in a:
+						firstName = a[ 'given' ]
 
-			aut = []
-			for a in aut__:
-				firstName = a[ 'given' ]
-				aut.append(self.getInitials(firstName) + ' ' + a[ 'family' ])
+						aut.append(self.getInitials(firstName) + ' ' + a[ 'family' ])
+					elif 'family' in a:
+						aut.append(a['family'])
+					else:
+						aut = None
+			else:
+				aut = None
 
-		else:
-			aut = None
 
+			if 'title' in self.art:
+				tit = self.art[ 'title' ][ 0 ]
+			else:
+				tit = None
 
-		if 'title' in art:
-			tit = art[ 'title' ][ 0 ]
-		else:
-			tit = None
+			if 'publisher' in self.art:
+				pub = self.art[ 'publisher' ]
+			else:
+				pub = None
 
-		if 'publisher' in art:
-			pub = art[ 'publisher' ]
-		else:
-			pub = None
+			if 'reference-count' in self.art:
+				cit = self.art[ 'reference-count' ]
+			else:
+				cit = 'None'
 
-		if 'reference-count' in art:
-			cit = art[ 'reference-count' ]
-		else:
-			cit = 'None'
+			if 'container-title' in self.art and not len(self.art['container-title']) == 0:	#prevents empty lists
+				jnl = self.art[ 'container-title' ][ 0 ]
+			else:
+				jnl = None
 
-		if 'container-title' in art and not len(art['container-title']) == 0:	#prevents empty lists
-			jnl = art[ 'container-title' ][ 0 ]
-		else:
-			jnl = None
+			if 'reference' in self.art:
+				ref = self.art[ 'reference' ]
+			else:
+				ref = None
 
-		if 'reference' in art:
-			ref = art[ 'reference' ]
-		else:
-			ref = None
+			if 'created' in self.art:
+				ymd = self.art[ 'created' ][ 'date-time' ][ 0:10 ]
+			else:
+				ymd = None
 
-		if 'created' in art:
-			ymd = art[ 'created' ][ 'date-time' ][ 0:10 ]
-		else:
-			ymd = None
+			# if 'reference-count' in self.art:
+			# 	rct = self.art[ 'reference-count' ]
+			# else:
+			# 	rct = None
 
-		# if 'reference-count' in art:
-		# 	rct = art[ 'reference-count' ]
-		# else:
-		# 	rct = None
+			if 'ISSN' in self.art:
+				issn = self.art[ 'ISSN' ]
+			else:
+				issn = None
 
-		if 'ISSN' in art:
-			issn = art[ 'ISSN' ]
-		else:
-			issn = None
+			if 'ISBN' in self.art:
+				isbn = self.art[ 'ISBN' ]
+			else:
+				isbn = None
 
-		if 'ISBN' in art:
-			isbn = art[ 'ISBN' ]
-		else:
-			isbn = None
+			if 'publisher-location' in self.art:
+				loc = self.art[ 'publisher-location' ]
+			else:
+				loc = None
 
-		if 'publisher-location' in art:
-			loc = art[ 'publisher-location' ]
-		else:
-			loc = None
+			if 'URL' in self.art:
+				url = self.art[ 'URL' ]
+			else:
+				url = None
 
-		if 'URL' in art:
-			url = art[ 'URL' ]
-		else:
-			url = None
+			if 'editor' in self.art:
+				edt = self.art[ 'editor' ]
+			else:
+				edt = None
 
-		if 'editor' in art:
-			edt = art[ 'editor' ]
-		else:
-			edt = None
+			if 'article-number' in self.art:
+				anm = self.art[ 'article-number' ]
+			else:
+				anm = None
 
-		if 'article-number' in art:
-			anm = art[ 'article-number' ]
-		else:
-			anm = None
+			return doi1, typ, vol, iss, pgs, aut, tit, pub, cit, jnl, ref, ymd, issn, isbn, loc, url, edt, anm
 
-		return doi1, typ, vol, iss, pgs, aut, tit, pub, cit, jnl, ref, ymd, issn, isbn, loc, url, edt, anm
+		except:
+			pass
 
