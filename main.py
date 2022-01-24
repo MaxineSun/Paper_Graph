@@ -2,6 +2,7 @@ from openpyxl import *
 from utils.PullData import PullData
 from utils.PullDoi import PullDoi
 from utils.Creating_Edge import *
+from utils.Visualize import Visualize
 
 if __name__ == '__main__':
     wb = load_workbook('digCon.xlsx')
@@ -9,7 +10,7 @@ if __name__ == '__main__':
     doirecord = []  # change variable name here to avoid conflicts between the doi in line20
     noDOI = []
 
-    for i in range(2, 8):
+    for i in range(2, 3):
         d = ws.cell(row=i, column=12).value
         tit = ws.cell(row=i, column=4).value
         if d:
@@ -25,5 +26,6 @@ if __name__ == '__main__':
     g.Create_Graph()
     print(g.Graph.number_of_nodes())
     print(g.Graph.number_of_edges())
+    v = Visualize(g)
+    v.Visualize_graph()
 
-    print("  ")
